@@ -163,6 +163,83 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://yxfan.top/2022/11/26/%E4%B8%BAhexo%E7%BB%91%E5%AE%9A%E5%9F%9F%E5%90%8D/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="superial">
+      <meta itemprop="description" content="这是我的博客，主要用来存放学习笔记，以备后续查阅。">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="superial's blogs">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2022/11/26/%E4%B8%BAhexo%E7%BB%91%E5%AE%9A%E5%9F%9F%E5%90%8D/" class="post-title-link" itemprop="url">为hexo绑定域名</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2022-11-26 19:57:03 / 修改时间：20:58:30" itemprop="dateCreated datePublished" datetime="2022-11-26T19:57:03+08:00">2022-11-26</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/hexo/" itemprop="url" rel="index"><span itemprop="name">hexo</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p>假设腾讯云上有一个已经备案的域名，现在来绑定hexo。</p>
+<h1 id="域名解析"><a href="#域名解析" class="headerlink" title="域名解析"></a>域名解析</h1><p>进入腾讯云服务器控制台界面，点击解析。<br><img src="/2022/11/26/%E4%B8%BAhexo%E7%BB%91%E5%AE%9A%E5%9F%9F%E5%90%8D/figure1.png"></p>
+<p>添加以下两条解析。<br><img src="/2022/11/26/%E4%B8%BAhexo%E7%BB%91%E5%AE%9A%E5%9F%9F%E5%90%8D/figure2.png"></p>
+<h1 id="github配置"><a href="#github配置" class="headerlink" title="github配置"></a>github配置</h1><p>点击博客项目的 settings<br><img src="/2022/11/26/%E4%B8%BAhexo%E7%BB%91%E5%AE%9A%E5%9F%9F%E5%90%8D/figure3.png"></p>
+<p>进入page页面，在custom domain输入自己的域名，选中<code>enforce https</code><br><img src="/2022/11/26/%E4%B8%BAhexo%E7%BB%91%E5%AE%9A%E5%9F%9F%E5%90%8D/figure4.png"></p>
+<h1 id="hexo配置"><a href="#hexo配置" class="headerlink" title="hexo配置"></a>hexo配置</h1><p>修改配置文件<code>_config.yml</code>,添加自己的域名</p>
+<p><img src="/2022/11/26/%E4%B8%BAhexo%E7%BB%91%E5%AE%9A%E5%9F%9F%E5%90%8D/figure5.png"></p>
+<p>然后在<code>_config.yml</code>同级目录下创建名为<code>CNAME</code>的文件，添加上自己的域名。</p>
+<p>最后重新部署<br><code>hexo d</code></p>
+<h1 id="参考博文"><a href="#参考博文" class="headerlink" title="参考博文"></a>参考博文</h1><p><a href>https://blog.csdn.net/Passerby_Wang&#x2F;article&#x2F;details&#x2F;121209799</a><br><a target="_blank" rel="noopener" href="https://blog.csdn.net/miss_bear/article/details/106164293#6url_47">https://blog.csdn.net/miss_bear&#x2F;article&#x2F;details&#x2F;106164293#6url_47</a></p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="http://yxfan.top/2022/11/26/%E4%BD%BF%E7%94%A8hexo%E6%A1%86%E6%9E%B6%E3%80%81github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -188,7 +265,7 @@
               <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="创建时间：2022-11-26 15:44:48 / 修改时间：19:49:17" itemprop="dateCreated datePublished" datetime="2022-11-26T15:44:48+08:00">2022-11-26</time>
+              <time title="创建时间：2022-11-26 15:44:48 / 修改时间：20:58:20" itemprop="dateCreated datePublished" datetime="2022-11-26T15:44:48+08:00">2022-11-26</time>
             </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -327,18 +404,18 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">1</span>
+          <span class="site-state-item-count">2</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
             <a href="/categories/">
           
-        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-count">2</span>
         <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
-        <span class="site-state-item-count">3</span>
+        <span class="site-state-item-count">5</span>
         <span class="site-state-item-name">标签</span>
       </div>
   </nav>
